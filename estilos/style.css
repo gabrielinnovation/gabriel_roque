@@ -312,11 +312,6 @@ section.portfolio .flex {
     opacity: 1;
 }
 
-div#flex a {
-    text-decoration: none;
-    color: #fff;
-}
-
 /* ESTILO DO FORMULÁRIO DE CONTATO */
 section.formulario {
     padding: 80px 4%;
