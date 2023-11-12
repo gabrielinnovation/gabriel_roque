@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 } else {
     // Se alguém tentar acessar este script diretamente, redireciona para o formulário
-    header("Location: formulario.html");
+    header("Location: index.html");
     exit();
 }
 ?>
