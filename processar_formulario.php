@@ -2,10 +2,10 @@
 
 //Declando minhas variaveis
 
-$nome = addslashes($_GET['nome']);
-$email = addslashes($_GET['email']);
-$telefone = addslashes($_GET['telefone']);
-$mensagem = addslashes($_GET['mensagem']);
+$nome = addslashes($_POST['nome']);
+$email = addslashes($_POST['email']);
+$telefone = addslashes($_POST['telefone']);
+$mensagem = addslashes($_POST['mensagem']);
 
 // Declarando - Remetente / Destino
 
