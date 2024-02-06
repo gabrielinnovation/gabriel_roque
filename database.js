@@ -57,12 +57,12 @@ app.post('/formulario', (req, res) => {
       console.log(`Uma linha foi inserida com a ID da linha ${this.lastID}`); // Se a linha foi inserida com sucesso, imprime a mensagem de sucesso
     });
   
-    /*/ Envia a resposta ao cliente
+    // Envia a resposta ao cliente
     res.send(`
 
             alert('Formulário enviado com sucesso!');
 
 
-    `);*/
+    `);
 });
 
