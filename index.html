@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="estilos/style.css">
 
     <script src="menu js/menu.js" defer></script>
+    <script src="menu js/cnxbd.js"></script>
+    <script src="menu js/bd.js"></script>
 
     <title>Portfólio | Gabriel Roque</title>
 </head>
@@ -160,7 +162,7 @@
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-                <form contact="netlify"  method="post" >
+                <form action="http://localhost:3000/formulario" method="post">
                     <input type="text" name="nome" id="nome" placeholder="Seu nome completo:" required>
                     <input type="text" name="email" id="email" placeholder="Seu e-mail:" required>
                     <input type="text" name="celular" id="celular" placeholder="Seu celular:">

@@ -3,33 +3,6 @@
 *  {
     padding: 0px;
     margin: 0px;
+    box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(219, 219, 219);
-}
-
-.header-section {
-    background-color: black;
-    padding: 35px;
-    
-}
-
-h1 {
-    color: white;
-    text-align: center;
-    text-decoration: none;
-}
-
-.txt-paragrafo {
-    display: flex;
-
-    text-align: justify;
-}
-
-
-footer {
-    height: 110px;
-    width: 100%;
-    background-color: black;
-}
