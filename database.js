@@ -55,6 +55,11 @@ app.post('/formulario', (req, res) => {
         return console.log(err.message); // Em caso de erro na inserção, imprime a mensagem de erro
       }
       console.log(`Uma linha foi inserida com a ID da linha ${this.lastID}`); // Se a linha foi inserida com sucesso, imprime a mensagem de sucesso
+
+      // Redireciona para a nova URL
+      res.redirect('https://gabrielinnovation.github.io/gabriel_roque/');
+
+
     });
   
     // Envia a resposta ao cliente
